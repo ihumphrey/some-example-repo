@@ -1,0 +1,20 @@
+ignore:
+  - "some_example_project/_version.py"
+  - "setup.py"
+  - "versioneer.py"
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        paths:
+          - "some_example_project"
+        informational: true
+    patch:
+      default:
+        target: auto
+        paths:
+          - "some_example_project"
+        informational: true
+
